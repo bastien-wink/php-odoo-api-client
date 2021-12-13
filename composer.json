@@ -17,10 +17,14 @@
             "Ang3\\Component\\Odoo\\Tests\\": "tests/"
         }
     },
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/bastien-wink/php-xmlrpc-client"
+    }],
     "require": {
         "php": ">=7.2",
         "ext-json": "*",
-        "ang3/php-xmlrpc-client": "^1.0.2"
+        "ang3/php-xmlrpc-client": "dev-master"
     },
     "require-dev": {
         "roave/security-advisories": "dev-master",
